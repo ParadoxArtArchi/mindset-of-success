@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mindset of Success | Transforme Ta Vie en 9 E-books Premium</title>
+<meta name="description" content="Découvre comment 47,000+ personnes ont transformé leur mindset, augmenté leurs revenus et amélioré leurs relations. 9 e-books premium + bonus gratuits.">
+<meta name="og:image" content="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=630&fit=crop">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+--dark:#0f172a;--border:#e2e8f0;--blue:#2563eb;--green:#16a34a;--pink:#ec4899;--gold:#f59e0b;--purple:#8b5cf6;--cyan:#06b6d4;--violet:#a78bfa;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;color:#1e293b;background:#fff;line-height:1.6;overflow-x:hidden}
+.container{width:min(1200px,90%);margin:auto}
+section{padding:60px 0}
+header{position:sticky;top:0;background:rgba(255,255,255,.97);backdrop-filter:blur(20px);border-bottom:1px solid #f1f5f9;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,.06)}
+.navbar{height:70px;display:flex;justify-content:space-between;align-items:center;padding:0 20px}
+.logo{font-weight:900;font-size:1.3rem;background:linear-gradient(135deg,#2563eb,#ec4899,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;animation:glow 3s ease-in-out infinite}
+@keyframes glow{0%,100%{filter:drop-shadow(0 0 0 rgba(37,99,235,0));}50%{filter:drop-shadow(0 0 8px rgba(37,99,235,.3))}}
+.security-badge{padding:8px 14px;background:linear-gradient(135deg,#ecfdf5,#f0fdf4);border:1px solid #a7f3d0;border-radius:999px;font-size:.85rem;font-weight:600;color:#047857;display:flex;align-items:center;gap:6px;transition:.3s}
+.security-badge:hover{transform:scale(1.05);border-color:#6ee7b7}
+.hero{min-height:100vh;display:flex;align-items:center;background:linear-gradient(135deg,#fff 0%,#f8fafc 35%,#eff6ff 70%,#f5f3ff 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(circle 800px at 20% 50%,rgba(37,99,235,.15) 0%,transparent 50%),radial-gradient(circle 600px at 80% 80%,rgba(236,72,153,.1) 0%,transparent 50%),radial-gradient(circle 400px at 50% 0%,rgba(6,182,212,.08) 0%,transparent 50%);animation:bgShift 8s ease-in-out infinite;pointer-events:none}
+@keyframes bgShift{0%,100%{transform:translate(0,0)}50%{transform:translate(20px,30px)}}
+.hero-content{text-align:center;max-width:950px;margin:auto;position:relative;z-index:2;animation:slideUp .8s cubic-bezier(.25,.46,.45,.94)}
+@keyframes slideUp{from{opacity:0;transform:translateY(60px)}to{opacity:1;transform:translateY(0)}}
+.hero-tag{display:inline-block;padding:12px 20px;background:linear-gradient(135deg,#dbeafe,#e0f2fe);border:1.5px solid #0ea5e9;border-radius:999px;margin-bottom:20px;font-weight:700;color:#0369a1;font-size:.9rem;position:relative;overflow:hidden}
+.hero-tag::before{content:'';position:absolute;inset:0;background:linear-gradient(90deg,transparent,rgba(255,255,255,.5),transparent);animation:shimmer 2s infinite}
+@keyframes shimmer{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.hero h1{font-size:clamp(2.5rem,6vw,5rem);font-weight:950;line-height:1.1;margin-bottom:25px;color:#0f172a;letter-spacing:-1px}
+.hero h1 span{background:linear-gradient(135deg,#2563eb 0%,#ec4899 50%,#06b6d4 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;display:inline-block;animation:colorShift 4s ease-in-out infinite}
+@keyframes colorShift{0%,100%{filter:hue-rotate(0deg)}50%{filter:hue-rotate(20deg)}}
+.hero-subheading{font-size:1.3rem;color:#475569;margin-bottom:30px;font-weight:500;line-height:1.6}
+.social-proof{display:flex;align-items:center;justify-content:center;gap:25px;margin:35px 0;flex-wrap:wrap}
+.proof-item{font-size:1rem;font-weight:700;color:#334155;display:flex;align-items:center;gap:8px;padding:10px 15px;background:rgba(255,255,255,.6);border-radius:12px;backdrop-filter:blur(10px);border:1px solid #f1f5f9;transition:.3s}
+.proof-item:hover{transform:translateY(-3px);background:rgba(37,99,235,.05);border-color:#2563eb}
+.stars{color:#f59e0b;letter-spacing:2px;font-size:1.2rem;text-shadow:0 2px 4px rgba(245,158,11,.3)}
+.urgent-box{background:linear-gradient(135deg,#fef3c7,#fde68a);border-left:5px solid #f59e0b;padding:20px 24px;border-radius:16px;margin-bottom:35px;text-align:left;max-width:650px;margin-left:auto;margin-right:auto;box-shadow:0 10px 30px rgba(245,158,11,.15);position:relative;overflow:hidden}
+.urgent-box::before{content:'';position:absolute;top:-50%;right:-50%;width:200%;height:200%;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(255,255,255,.1) 10px,rgba(255,255,255,.1) 20px);animation:pulse-border 2s infinite}
+@keyframes pulse-border{0%{transform:translate(-100%,-100%)}100%{transform:translate(0,0)}}
+.urgent-box strong{color:#92400e;font-size:1.1rem;display:block;margin-bottom:8px}
+.urgent-box p{color:#78350f;font-weight:500}
+.cta-primary{display:inline-block;padding:16px 50px;background:linear-gradient(135deg,#2563eb,#1d4ed8,#1e40af);color:#fff;border-radius:14px;text-decoration:none;transition:.3s;font-weight:800;border:none;cursor:pointer;box-shadow:0 15px 40px rgba(37,99,235,.35);font-size:1.08rem;position:relative;overflow:hidden;text-transform:uppercase;letter-spacing:.5px}
+.cta-primary::before{content:'';position:absolute;inset:0;background:linear-gradient(45deg,transparent 30%,rgba(255,255,255,.2) 50%,transparent 70%);animation:shine 3s infinite}
+@keyframes shine{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.cta-primary:hover{transform:translateY(-5px);box-shadow:0 20px 50px rgba(37,99,235,.45)}
+.cta-primary:active{transform:translateY(-2px)}
+.cta-secondary{display:inline-block;padding:14px 32px;background:#fff;color:#2563eb;border:2.5px solid #2563eb;border-radius:14px;text-decoration:none;transition:.3s;font-weight:700;margin-left:12px;cursor:pointer;position:relative}
+.cta-secondary::after{content:'';position:absolute;inset:0;background:#2563eb;border-radius:12px;z-index:-1;transition:.3s;transform:scale(0)}
+.cta-secondary:hover{color:#fff;transform:translateY(-3px)}
+.cta-secondary:hover::after{transform:scale(1)}
+.section-title{text-align:center;font-size:clamp(1.8rem,4vw,3rem);font-weight:950;margin-bottom:10px;color:#0f172a;position:relative}
+.section-title::after{content:'';position:absolute;bottom:-15px;left:50%;width:60px;height:4px;background:linear-gradient(90deg,#2563eb,#ec4899);border-radius:999px;transform:translateX(-50%);animation:expandWidth .8s ease-out}
+@keyframes expandWidth{from{width:0}to{width:60px}}
+.section-title span{background:linear-gradient(135deg,#2563eb,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.section-subtitle{text-align:center;color:#64748b;margin-bottom:60px;font-size:1.1rem;max-width:700px;margin-left:auto;margin-right:auto;font-weight:500;margin-top:30px}
+.books-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:35px;margin-bottom:50px}
+.book-card{background:#fff;border:2px solid #f1f5f9;border-radius:24px;padding:32px;transition:.5s cubic-bezier(.25,.46,.45,.94);position:relative;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.05)}
+.book-card::before{content:'';position:absolute;top:0;left:0;width:100%;height:5px;background:linear-gradient(90deg,#2563eb,#ec4899);transform:scaleX(0);transform-origin:left;transition:.5s;opacity:0}
+.book-card::after{content:'';position:absolute;inset:0;background:radial-gradient(circle 600px at var(--mouse-x,0) var(--mouse-y,0),rgba(37,99,235,.1) 0%,transparent 50%);pointer-events:none;opacity:0;transition:.1s}
+.book-card:hover{transform:translateY(-20px);border-color:#2563eb;box-shadow:0 35px 70px rgba(37,99,235,.2)}
+.book-card:hover::before{transform:scaleX(1);opacity:1}
+.book-card:hover::after{opacity:1}
+.book-cover{height:300px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:6rem;margin-bottom:24px;position:relative;overflow:hidden;box-shadow:0 15px 35px rgba(0,0,0,.1)}
+.book-cover::before{content:'';position:absolute;inset:0;background:linear-gradient(45deg,transparent 30%,rgba(255,255,255,.1) 50%,transparent 70%);animation:shimmerBook 3s infinite}
+@keyframes shimmerBook{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.book-cover::after{content:'';position:absolute;inset:0;opacity:.3;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(255,255,255,.1) 10px,rgba(255,255,255,.1) 20px)}
+.book-title{font-size:1.45rem;font-weight:850;margin-bottom:12px;color:#0f172a}
+.book-desc{font-size:.95rem;color:#64748b;margin-bottom:16px;line-height:1.6;min-height:60px}
+.book-benefits{font-size:.9rem;color:#7c3aed;margin-bottom:18px;font-weight:700;background:#f5f3ff;padding:10px 12px;border-radius:8px;border-left:3px solid #7c3aed}
+.book-price-box{display:flex;align-items:baseline;gap:10px;margin-bottom:20px}
+.book-price{font-size:2rem;font-weight:950;background:linear-gradient(135deg,#2563eb,#ec4899);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.book-price-old{font-size:1.1rem;color:#94a3b8;text-decoration:line-through;font-weight:600}
+.book-label{display:inline-block;padding:6px 14px;background:linear-gradient(135deg,#fef3c7,#fde68a);color:#92400e;border-radius:8px;font-size:.75rem;font-weight:800;margin-bottom:14px;text-transform:uppercase;letter-spacing:.5px}
+.buy-btn{width:100%;padding:15px;border:none;border-radius:12px;color:#fff;font-weight:800;cursor:pointer;transition:.4s;font-size:1.05rem;text-transform:uppercase;letter-spacing:.5px;position:relative;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.15)}
+.buy-btn::before{content:'';position:absolute;inset:0;background:linear-gradient(45deg,transparent,rgba(255,255,255,.2),transparent);animation:buttonShine 2s infinite}
+@keyframes buttonShine{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
+.buy-btn:hover{transform:translateY(-4px);box-shadow:0 12px 30px rgba(0,0,0,.2)}
+.buy-btn:active{transform:translateY(-1px)}
+.blue-section{background:linear-gradient(135deg,#f0f9ff 0%,#e0f2fe 100%)}
+.blue-title{color:#2563eb}
+.blue-cover{background:linear-gradient(135deg,#2563eb 0%,#60a5fa 50%,#0ea5e9 100%)}
+.blue-btn{background:linear-gradient(135deg,#2563eb,#1d4ed8);border:none}
+.blue-price{color:#2563eb}
+.green-section{background:linear-gradient(135deg,#f0fdf4 0%,#dcfce7 100%)}
+.green-title{color:#16a34a}
+.green-cover{background:linear-gradient(135deg,#16a34a 0%,#4ade80 50%,#22c55e 100%)}
+.green-btn{background:linear-gradient(135deg,#16a34a,#15803d);border:none}
+.green-price{color:#16a34a}
+.pink-section{background:linear-gradient(135deg,#fdf2f8 0%,#fbecf8 100%)}
+.pink-title{color:#ec4899}
+.pink-cover{background:linear-gradient(135deg,#ec4899 0%,#f9a8d4 50%,#fbcfe8 100%)}
+.pink-btn{background:linear-gradient(135deg,#ec4899,#db2777);border:none}
+.pink-price{color:#ec4899}
+.testimonials{background:linear-gradient(135deg,#0f172a 0%,#1e293b 50%,#0f172a 100%);color:#fff;padding:100px 0;position:relative;overflow:hidden}
+.testimonials::before{content:'';position:absolute;inset:0;background:radial-gradient(circle 400px at 20% 50%,rgba(37,99,235,.15) 0%,transparent 50%),radial-gradient(circle 400px at 80% 80%,rgba(236,72,153,.1) 0%,transparent 50%);pointer-events:none}
+.testimonials .section-title,.testimonials .section-subtitle{color:#fff}
+.testimonials-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:30px;position:relative;z-index:1}
+.testimonial-card{background:linear-gradient(135deg,rgba(30,41,59,.7),rgba(15,23,42,.7));border:1.5px solid rgba(148,163,184,.3);border-radius:20px;padding:35px;position:relative;overflow:hidden;backdrop-filter:blur(10px);transition:.5s;cursor:pointer}
+.testimonial-card::before{content:'"';position:absolute;top:-20px;left:20px;font-size:5rem;color:#2563eb;opacity:.15}
+.testimonial-card::after{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(37,99,235,.1) 0%,transparent 100%);opacity:0;transition:.5s}
+.testimonial-card:hover{transform:translateY(-15px);border-color:#2563eb;box-shadow:0 20px 50px rgba(37,99,235,.2)}
+.testimonial-card:hover::after{opacity:1}
+.testimonial-text{margin-bottom:25px;font-style:italic;color:#cbd5e1;font-size:1.05rem;line-height:1.7;position:relative;z-index:1}
+.testimonial-author{display:flex;align-items:center;gap:15px;position:relative;z-index:1}
+.author-avatar{width:50px;height:50px;border-radius:50%;background:linear-gradient(135deg,#2563eb,#ec4899);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:1.2rem;box-shadow:0 5px 15px rgba(37,99,235,.4)}
+.author-name{font-weight:800;color:#fff;font-size:1.05rem}
+.author-title{font-size:.9rem;color:#94a3b8}
+.rating{color:#f59e0b;font-size:1rem;letter-spacing:2px;margin-bottom:8px}
+.bonus-section{background:linear-gradient(135deg,#8b5cf6 0%,#ec4899 50%,#06b6d4 100%);color:#fff;padding:80px 0;position:relative;overflow:hidden}
+.bonus-section::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(45deg,transparent,transparent 10px,rgba(255,255,255,.05) 10px,rgba(255,255,255,.05) 20px);pointer-events:none}
+.bonus-content{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:center;position:relative;z-index:1}
+.bonus-text h3{font-size:2.5rem;margin-bottom:30px;font-weight:950;line-height:1.2}
+.bonus-list{list-style:none}
+.bonus-list li{padding:14px 0;display:flex;align-items:center;gap:15px;font-weight:600;font-size:1.05rem;transition:.3s}
+.bonus-list li:hover{transform:translateX(10px)}
+.bonus-list li::before{content:'✓';font-size:1.5rem;font-weight:900;flex-shrink:0;animation:twinkle 1.5s ease-in-out infinite}
+@keyframes twinkle{0%,100%{opacity:1}50%{opacity:.5}}
+.bonus-info{background:rgba(255,255,255,.15);padding:20px;border-radius:14px;border:1px solid rgba(255,255,255,.3);margin-top:25px;backdrop-filter:blur(10px)}
+.bonus-info strong{color:#fef3c7;font-size:1.3rem;display:block;margin-bottom:8px}
+.bonus-image{text-align:center;font-size:8rem;animation:float 3s ease-in-out infinite}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+@media(max-width:768px){.bonus-content{grid-template-columns:1fr}}
+.faq-section{background:linear-gradient(135deg,#f8fafc 0%,#f1f5f9 100%);padding:100px 0}
+.faq-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:50px;align-items:start}
+.faq-list{list-style:none}
+.faq-item{background:#fff;border:2px solid #e2e8f0;border-radius:16px;margin-bottom:18px;overflow:hidden;transition:.4s;cursor:pointer}
+.faq-item:hover{border-color:#2563eb;box-shadow:0 15px 35px rgba(37,99,235,.15)}
+.faq-question{padding:22px 24px;cursor:pointer;font-weight:750;display:flex;justify-content:space-between;align-items:center;transition:.3s;background:linear-gradient(135deg,#f8fafc,#f1f5f9);user-select:none}
+.faq-question:hover{background:#fff;color:#2563eb}
+.faq-toggle{font-size:1.5rem;transition:.5s;font-weight:800;color:#2563eb}
+.faq-item.active .faq-toggle{transform:rotate(180deg)}
+.faq-answer{max-height:0;overflow:hidden;transition:.5s cubic-bezier(.25,.46,.45,.94);padding:0 24px}
+.faq-item.active .faq-answer{max-height:300px;padding:20px 24px}
+.faq-answer p{color:#64748b;line-height:1.8;font-weight:500}
+.faq-image{text-align:center;font-size:6rem;animation:rotate 20s linear infinite}
+@keyframes rotate{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@media(max-width:768px){.faq-grid{grid-template-columns:1fr}}
+.guarantee-section{background:linear-gradient(135deg,#f59e0b,#f97316,#ec4899);color:#fff;padding:70px 0;border-radius:24px;text-align:center;position:relative;overflow:hidden;margin:60px 0;box-shadow:0 25px 60px rgba(245,158,11,.25)}
+.guarantee-section::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 20px,rgba(255,255,255,.1) 20px,rgba(255,255,255,.1) 40px);animation:slideRight 2s infinite;pointer-events:none}
+.guarantee-section h3{font-size:2rem;margin-bottom:15px;font-weight:950;position:relative;z-index:1}
+.guarantee-section p{font-size:1.1rem;max-width:600px;margin:auto;position:relative;z-index:1;font-weight:500}
+@keyframes slideRight{0%{transform:translateX(0)}100%{transform:translateX(40px)}}
+.payment-section{background:#fff;padding:80px 0}
+.payment-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:25px}
+.payment-card{background:linear-gradient(135deg,#f8fafc,#f1f5f9);padding:30px;border-radius:18px;text-align:center;border:2px solid #e2e8f0;transition:.4s;font-weight:750;color:#475569;cursor:pointer;font-size:1.1rem}
+.payment-card:hover{border-color:#2563eb;background:linear-gradient(135deg,#eff6ff,#e0f2fe);transform:translateY(-8px);box-shadow:0 15px 35px rgba(37,99,235,.2)}
+.final-cta{background:linear-gradient(135deg,#0f172a,#1e293b,#0f172a);color:#fff;padding:120px 0;text-align:center;position:relative;overflow:hidden}
+.final-cta::before{content:'';position:absolute;inset:0;background:radial-gradient(circle 500px at 20% 50%,rgba(37,99,235,.2) 0%,transparent 50%),radial-gradient(circle 500px at 80% 80%,rgba(236,72,153,.15) 0%,transparent 50%);animation:bgShift 8s ease-in-out infinite;pointer-events:none}
+.final-cta h2{font-size:3rem;margin-bottom:20px;font-weight:950;position:relative;z-index:1;animation:slideDown .8s ease-out}
+@keyframes slideDown{from{opacity:0;transform:translateY(-30px)}to{opacity:1;transform:translateY(0)}}
+.final-cta p{font-size:1.15rem;margin-bottom:30px;max-width:700px;margin-left:auto;margin-right:auto;color:#cbd5e1;position:relative;z-index:1;font-weight:500}
+.final-price{font-size:3.5rem;font-weight:950;color:#00f0ff;margin:25px 0;text-shadow:0 0 20px rgba(0,240,255,.4);position:relative;z-index:1;animation:pulse-price 2s ease-in-out infinite}
+@keyframes pulse-price{0%,100%{filter:drop-shadow(0 0 10px rgba(0,240,255,.3))}50%{filter:drop-shadow(0 0 20px rgba(0,240,255,.6))}}
+.countdown{display:flex;justify-content:center;gap:15px;margin:35px 0;font-weight:800;font-size:1.1rem;position:relative;z-index:1;flex-wrap:wrap}
+.countdown-item{background:linear-gradient(135deg,#2563eb,#1d4ed8);padding:15px 22px;border-radius:12px;min-width:80px;box-shadow:0 8px 20px rgba(37,99,235,.3);animation:bounce 2s ease-in-out infinite}
+@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+footer{background:#0f172a;color:#cbd5e1;padding:80px 0;border-top:2px solid #334155;position:relative;overflow:hidden}
+footer::before{content:'';position:absolute;inset:0;background:radial-gradient(circle 300px at 20% 50%,rgba(37,99,235,.1) 0%,transparent 50%);pointer-events:none}
+.footer-content{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:40px;margin-bottom:50px;position:relative;z-index:1}
+.footer-content h4{color:#fff;margin-bottom:18px;font-weight:800;font-size:1.15rem}
+.footer-links{list-style:none;padding:0;margin:0}
+.footer-links li{margin:0;padding:0}
+.footer-links a{display:block;padding:8px 0;transition:.3s;font-weight:500;text-decoration:none;color:#cbd5e1}
+.footer-links a:hover{color:#2563eb;transform:translateX(5px)}
+.footer-bottom{border-top:1px solid #334155;padding-top:30px;text-align:center;font-size:.9rem;position:relative;z-index:1}
+.footer-bottom a{color:#2563eb;text-decoration:none;transition:.3s}
+.footer-bottom a:hover{color:#00f0ff}
+.reveal{opacity:0;transform:translateY(50px);transition:.8s cubic-bezier(.25,.46,.45,.94)}
+.reveal.active{opacity:1;transform:none}
+@media(max-width:768px){
+section{padding:40px 0}
+.hero{min-height:auto;padding:60px 0}
+.hero h1{font-size:2rem}
+.books-grid{grid-template-columns:1fr}
+.final-cta h2{font-size:1.8rem}
+.final-price{font-size:2.2rem}
+.cta-secondary{margin-left:0;display:inline-block;margin-top:15px}
+.bonus-content{gap:30px}
+}
+</style>
+</head>
+<body>
+<header><div class="container navbar"><div class="logo">✨ Mindset of Success</div><div class="security-badge">🔒 Sécurisé SSL 256-bit</div></div></header>
+
+<section class="hero">
+<div class="container hero-content">
+<div class="hero-tag">🎯 9 E-books + Bonus Illimités</div>
+<h1>Réussir commence par la volonté de le faire. Aujourd'hui, <span>c'est pour toi</span></h1>
+<p class="hero-subheading">Les secrets révolutionnaires de 47,000+ personnes qui ont transformé complètement leur vie en moins de 90 jours.</p>
+
+<div class="social-proof">
+<div class="proof-item"><span class="stars">★★★★★</span> 4.98/5</div>
+<div class="proof-item">✓ 47,000+ vies transformées</div>
+<div class="proof-item">✓ Garantie 30 jours</div>
+<div class="proof-item">✓ Résultats prouvés scientifiquement</div>
+</div>
+
+<div class="urgent-box">
+<strong>⚡ OFFRE CHOC LIMITÉE:</strong> <p>Accès ILLIMITÉ à 9 e-books premium + 5 bonus exclusifs + communauté VIP GRATUITE pour <strong>seulement 99$</strong> (prix normal: <strong>497$</strong>). <strong>Seulement 7 places restantes aujourd'hui!</strong></p>
+</div>
+
+<a class="cta-primary" href="#books">💎 DÉBLOQUER MON ACCÈS MAINTENANT</a>
+<a class="cta-secondary" href="#faq">Voir les résultats</a>
+</div>
+</section>
+
+<section id="books" class="blue-section">
+<div class="container">
+<h2 class="section-title blue-title reveal">📚 <span>Mindset & Développement Personnel</span></h2>
+<p class="section-subtitle reveal">Construis la mentalité des millionaires et des leaders mondiaux.</p>
+<div class="books-grid">
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-label">⭐ BEST SELLER</div>
+<div class="book-cover blue-cover">🦁</div>
+<h3 class="book-title">Le Réveil du Lion</h3>
+<p class="book-desc">Découvre comment réveiller ton potentiel dormant et devenir une version extraordinaire de toi-même. Les techniques des top 1% du monde.</p>
+<p class="book-benefits">✓ 127 pages | 15 exercices | 3 audios gratuits</p>
+<div class="book-price-box"><span class="book-price blue-price">14.99$</span><span class="book-price-old">39.99$</span></div>
+<button class="buy-btn blue-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-label">🔥 POPULAIRE</div>
+<div class="book-cover blue-cover">⚔️</div>
+<h3 class="book-title">Discipline d'Acier</h3>
+<p class="book-desc">Les systèmes secrets des élites mondiales pour une discipline inébranlable. Transforme tes habitudes en 21 jours garantis.</p>
+<p class="book-benefits">✓ 156 pages | Calendrier 90j | PDF + ePub</p>
+<div class="book-price-box"><span class="book-price blue-price">19.99$</span><span class="book-price-old">49.99$</span></div>
+<button class="buy-btn blue-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover blue-cover">🎯</div>
+<h3 class="book-title">Focus Ultime</h3>
+<p class="book-desc">Élimine les distractions et atteins une concentration profonde pour 10x plus de productivité immédiate.</p>
+<p class="book-benefits">✓ 98 pages | 7 templates | Bonus vidéos</p>
+<div class="book-price-box"><span class="book-price blue-price">12.99$</span><span class="book-price-old">34.99$</span></div>
+<button class="buy-btn blue-btn">🛒 Débloquer Maintenant</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="green-section">
+<div class="container">
+<h2 class="section-title green-title reveal">💰 <span>Argent & Indépendance Financière Totale</span></h2>
+<p class="section-subtitle reveal">Augmente tes revenus exponentiellement et construis une richesse durable.</p>
+<div class="books-grid">
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-label">💎 PLUS VENDU</div>
+<div class="book-cover green-cover">💰</div>
+<h3 class="book-title">L'Empire Digital</h3>
+<p class="book-desc">La roadmap COMPLÈTE pour lancer et monétiser ton business en ligne. Gagne ta première vente en 7 jours.</p>
+<p class="book-benefits">✓ 203 pages | 8 templates | Cas d'études</p>
+<div class="book-price-box"><span class="book-price green-price">29.99$</span><span class="book-price-old">79.99$</span></div>
+<button class="buy-btn green-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover green-cover">📈</div>
+<h3 class="book-title">Psychologie de l'Argent</h3>
+<p class="book-desc">Reprogramme tes croyances limitantes et devient magnétique à l'argent. Les secrets psychologiques des millionnaires.</p>
+<p class="book-benefits">✓ 167 pages | Journal | Affirmations</p>
+<div class="book-price-box"><span class="book-price green-price">24.99$</span><span class="book-price-old">64.99$</span></div>
+<button class="buy-btn green-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover green-cover">🏆</div>
+<h3 class="book-title">Indépendance Financière 30/30</h3>
+<p class="book-desc">Atteins la liberté financière en 30 mois avec la stratégie éprouvée des 30%. Pas de risque, résultats garantis.</p>
+<p class="book-benefits">✓ 145 pages | Calculateur | Stratégies</p>
+<div class="book-price-box"><span class="book-price green-price">19.99$</span><span class="book-price-old">54.99$</span></div>
+<button class="buy-btn green-btn">🛒 Débloquer Maintenant</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="pink-section">
+<div class="container">
+<h2 class="section-title pink-title reveal">❤️ <span>Charisme & Relations Magnétiques</span></h2>
+<p class="section-subtitle reveal">Développe une influence irrésistible et attire les bonnes personnes naturellement.</p>
+<div class="books-grid">
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover pink-cover">❤️</div>
+<h3 class="book-title">Les Lois de l'Attraction</h3>
+<p class="book-desc">Les principes scientifiques pour attirer naturellement l'amour, l'argent et les opportunités extraordinaires.</p>
+<p class="book-benefits">✓ 134 pages | 5 méditations | Guide</p>
+<div class="book-price-box"><span class="book-price pink-price">19.99$</span><span class="book-price-old">49.99$</span></div>
+<button class="buy-btn pink-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover pink-cover">🧠</div>
+<h3 class="book-title">Décoder la Psychologie Féminine</h3>
+<p class="book-desc">Comprendre authentiquement comment les femmes fonctionnent et créer des relations profondes et durables.</p>
+<p class="book-benefits">✓ 178 pages | Guides pratiques | Secrets</p>
+<div class="book-price-box"><span class="book-price pink-price">22.99$</span><span class="book-price-old">59.99$</span></div>
+<button class="buy-btn pink-btn">🛒 Débloquer Maintenant</button>
+</div>
+
+<div class="book-card reveal" onmousemove="updateMousePosition(event)">
+<div class="book-cover pink-cover">✨</div>
+<h3 class="book-title">Charisme Magnétique 2.0</h3>
+<p class="book-desc">Les 7 piliers du vrai charisme pour influencer, séduire et inspirer naturellement et authentiquement.</p>
+<p class="book-benefits">✓ 112 pages | Vidéos + Pratiques</p>
+<div class="book-price-box"><span class="book-price pink-price">14.99$</span><span class="book-price-old">39.99$</span></div>
+<button class="buy-btn pink-btn">🛒 Débloquer Maintenant</button>
+</div>
+</div>
+</div>
+</section>
+
+<section class="testimonials">
+<div class="container">
+<h2 class="section-title reveal">🌟 Les Résultats Extraordinaires de Nos Clients</h2>
+<p class="section-subtitle reveal">Découvre comment des gens ordinaires ont créé des vies extraordinaires.</p>
+<div class="testimonials-grid">
+<div class="testimonial-card reveal">
+<div class="rating">★★★★★</div>
+<p class="testimonial-text">"J'ai augmenté mon revenu de 340% en 6 mois! J'appliquais juste les stratégies de L'Empire Digital. Ma vie a complètement changé."</p>
+<div class="testimonial-author">
+<div class="author-avatar">MR</div>
+<div><div class="author-name">Marc Rochelle</div><div class="author-title">Entrepreneur Digital | France</div></div>
+</div>
+</div>
+
+<div class="testimonial-card reveal">
+<div class="rating">★★★★★</div>
+<p class="testimonial-text">"Discipline d'Acier a transformé mon existence entière. Perte de 23kg, business créée, vie incroyable. Merci infiniment!"</p>
+<div class="testimonial-author">
+<div class="author-avatar">AJ</div>
+<div><div class="author-name">Ahmed Jaouad</div><div class="author-title">Coach Fitness | Canada</div></div>
+</div>
+</div>
+
+<div class="testimonial-card reveal">
+<div class="rating">★★★★★</div>
+<p class="testimonial-text">"Grâce aux Lois de l'Attraction, j'ai rencontré ma soulmate. Les techniques sont incroyablement puissantes et efficaces."</p>
+<div class="testimonial-author">
+<div class="author-avatar">SB</div>
+<div><div class="author-name">Samir Bennani</div><div class="author-title">Consultant | Belgique</div></div>
+</div>
+</div>
+
+<div class="testimonial-card reveal">
+<div class="rating">★★★★★</div>
+<p class="testimonial-text">"Focus Ultime a décuplé ma productivité. Je fais en 3 heures ce qui me prenait 12 heures avant. Incroyable ROI!"</p>
+<div class="testimonial-author">
+<div class="author-avatar">NH</div>
+<div><div class="author-name">Nina Hariri</div><div class="author-title">Développeuse | Suisse</div></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="bonus-section">
+<div class="container">
+<div class="bonus-content">
+<div class="bonus-text">
+<h3>🎁 5 BONUS EXCLUSIFS<br>OFFERTS GRATUITEMENT</h3>
+<ul class="bonus-list">
+<li>Masterclass: "Les 7 Habitudes des Millionaires" (Valeur: 47$)</li>
+<li>Template: Plan d'Action 90 Jours Détaillé (Valeur: 27$)</li>
+<li>Checklist: 50 Habitudes de Haut Performant (Valeur: 17$)</li>
+<li>Accès Communauté VIP Private Discord (Valeur: 99$/année)</li>
+<li>Mises à jour À Vie + Support Personnel (Valeur: Illimitée)</li>
+</ul>
+<div class="bonus-info">
+<strong>💎 Valeur totale: 290$+ COMPLÈTEMENT GRATUIT</strong>
+<p style="margin-top:10px;font-size:.95rem">Ceci n'est JAMAIS inclus normalement. C'est une offre de lancement exceptionnelle!</p>
+</div>
+</div>
+<div class="bonus-image">🚀</div>
+</div>
+</div>
+</section>
+
+<section class="faq-section">
+<div class="container">
+<h2 class="section-title reveal">❓ Questions Fréquentes</h2>
+<div class="faq-grid">
+<ul class="faq-list">
+<li class="faq-item">
+<div class="faq-question">🔒 Quel format pour les e-books? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>Tous les e-books sont en PDF et ePUB haute qualité. Téléchargement instantané après paiement. Lisibles sur tous les appareils: téléphones, tablettes, ordinateurs.</p></div>
+</li>
+<li class="faq-item">
+<div class="faq-question">💳 Puis-je obtenir un remboursement? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>OUI! Garantie 100% satisfaction: 30 jours complets pour essayer. Si vous n'êtes pas satisfait, remboursement complet sans aucune question. C'est notre engagement envers vous.</p></div>
+</li>
+<li class="faq-item">
+<div class="faq-question">👥 À qui s'adressent ces e-books? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>À TOUS ceux qui cherchent à progresser: entrepreneurs, employés, étudiants, indépendants, freelancers. Les stratégies s'adaptent à TOUS les niveaux et tous les âges.</p></div>
+</li>
+<li class="faq-item">
+<div class="faq-question">🎁 Comment accéder aux bonus? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>Les bonus sont INCLUS dans votre accès immédiat après paiement. Pas besoin de code, pas de délai. Tout est prêt dans votre compte personnel sécurisé.</p></div>
+</li>
+<li class="faq-item">
+<div class="faq-question">💳 Y a-t-il des frais cachés? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>ZÉRO frais cachés. Prix unique transparent: 99$ pour accès ILLIMITÉ aux 9 e-books + 5 bonus + communauté VIP. Aucun abonnement, aucune récurrence, accès À VIE.</p></div>
+</li>
+<li class="faq-item">
+<div class="faq-question">⏱️ Combien de temps pour voir les résultats? <span class="faq-toggle">+</span></div>
+<div class="faq-answer"><p>Les premiers changements: 7-14 jours. Les résultats significatifs: 30-45 jours. Les transformations complètes: 90 jours d'application sérieuse. Dépend de votre commitment.</p></div>
+</li>
+</ul>
+<div class="faq-image">💡</div>
+</div>
+</div>
+</section>
+
+<section class="guarantee-section">
+<h3>✅ GARANTIE SATISFACTION COMPLÈTE 30 JOURS</h3>
+<p>Si tu n'aimes pas les e-books, demande simplement un remboursement complet. Pas d'excuses demandées. C'est notre garantie absolue que nous sommes CONFIANTS dans la qualité exceptionnelle de nos ressources.</p>
+</section>
+
+<section class="payment-section">
+<div class="container">
+<h2 class="section-title">💳 Paiements Sécurisés</h2>
+<p class="section-subtitle">Paiement rapide et protégé avec chiffrement SSL 256-bit</p>
+<div class="payment-grid">
+<div class="payment-card">💳 Visa</div>
+<div class="payment-card">💳 Mastercard</div>
+<div class="payment-card">💳 American Express</div>
+<div class="payment-card">🅿️ PayPal</div>
+<div class="payment-card">💸 Google Pay</div>
+<div class="payment-card">🍎 Apple Pay</div>
+</div>
+</div>
+</section>
+
+<section class="final-cta">
+<div class="container">
+<h2>🚀 COMMENCE TA TRANSFORMATION MAINTENANT</h2>
+<p>Débloquer l'accès COMPLET à 9 E-books + 5 Bonus Exclusifs + Communauté VIP À VIE</p>
+<p class="final-price">99$ (au lieu de 497$) ⚡</p>
+<div class="countdown">
+<div class="countdown-item">🔥 7 places restantes</div>
+<div class="countdown-item">⏰ Offre expire demain</div>
+</div>
+<a class="cta-primary" href="#checkout" style="padding:18px 55px;font-size:1.2rem">💎 DÉBLOQUER MON ACCÈS MAINTENANT</a>
+<p style="margin-top:30px;font-size:1rem">Garantie 30 jours • Accès instantané • Téléchargement immédiat • Support à vie</p>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<div class="footer-content">
+<div>
+<h4>✨ Mindset of Success</h4>
+<p>Transforme ton mindset, augmente tes revenus et maîtrise tes relations avec nos ressources premium révolutionnaires.</p>
+</div>
+<div>
+<h4>📚 Ressources</h4>
+<ul class="footer-links">
+<li><a href="#books">Nos E-books</a></li>
+<li><a href="#faq">Questions Fréquentes</a></li>
+<li><a href="#contact">Nous Contacter</a></li>
+<li><a href="#privacy">Politique de Confidentialité</a></li>
+</ul>
+</div>
+<div>
+<h4>🛡️ Support</h4>
+<ul class="footer-links">
+<li><a href="mailto:support@mindset-success.com">support@mindset-success.com</a></li>
+<li><a href="tel:+33123456789">+33 1 23 45 67 89</a></li>
+<li><a href="#status">Statut du Service</a></li>
+<li><a href="#security">Sécurité des Données</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2024 Mindset of Success. Tous droits réservés. | <a href="#">Conditions d'utilisation</a> | <a href="#">Politique de confidentialité</a></p>
+</div>
+</div>
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(e => {
+    if(e.isIntersecting) e.target.classList.add('active');
+  });
+}, {threshold: .1});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+function updateMousePosition(e) {
+  const card = e.currentTarget;
+  const rect = card.getBoundingClientRect();
+  const x = e.clientX - rect.left;
+  const y = e.clientY - rect.top;
+  card.style.setProperty('--mouse-x', x + 'px');
+  card.style.setProperty('--mouse-y', y + 'px');
+}
+
+document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.addEventListener('click', function() {
+    const item = this.parentElement;
+    document.querySelectorAll('.faq-item.active').forEach(el => {
+      if(el !== item) el.classList.remove('active');
+    });
+    item.classList.toggle('active');
+  });
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(link => {
+  link.addEventListener('click', function(e) {
+    const href = this.getAttribute('href');
+    if(href !== '#' && document.querySelector(href)) {
+      e.preventDefault();
+      document.querySelector(href).scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+});
+
+document.querySelectorAll('.buy-btn, .cta-primary').forEach(btn => {
+  btn.addEventListener('click', function() {
+    console.log('🎯 CTA Click Tracked');
+  });
+});
+
+window.addEventListener('scroll', () => {
+  const scrolled = window.pageYOffset;
+  const parallaxElements = document.querySelectorAll('.hero, .final-cta');
+  parallaxElements.forEach(el => {
+    el.style.backgroundPosition = `center ${scrolled * 0.5}px`;
+  });
+});
+</script>
+</body>
+</html>
