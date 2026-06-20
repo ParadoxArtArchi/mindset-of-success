@@ -56,6 +56,7 @@ header{position:sticky;top:0;background:rgba(255,255,255,.98);backdrop-filter:bl
 .hero-subheading{font-size:clamp(1rem,3vw,1.25rem);color:#475569;margin-bottom:25px;font-weight:500;line-height:1.5}
 
 .hero-visual{width:100%;max-width:400px;height:250px;margin:30px auto;border-radius:20px;overflow:hidden;box-shadow:0 20px 50px rgba(37,99,235,.2);background:linear-gradient(135deg,#2563eb,#06b6d4);display:flex;align-items:center;justify-content:center;font-size:5rem;animation:scaleIn .8s cubic-bezier(.25,.46,.45,.94)}
+.hero-visual img{width:100%;height:100%;object-fit:cover}
 @keyframes scaleIn{from{opacity:0;transform:scale(.8)}to{opacity:1;transform:scale(1)}}
 
 .social-proof{display:flex;align-items:center;justify-content:center;gap:12px;margin:30px 0;flex-wrap:wrap}
@@ -130,6 +131,7 @@ section{padding:50px 0}
 
 .book-cover{height:240px;border-radius:16px;display:flex;align-items:center;justify-content:center;font-size:5rem;margin-bottom:20px;position:relative;overflow:hidden;box-shadow:0 12px 30px rgba(0,0,0,.08)}
 .book-cover::before{content:'';position:absolute;inset:0;background:linear-gradient(45deg,transparent 30%,rgba(255,255,255,.1) 50%,transparent 70%);animation:shimmerBook 3s infinite}
+.book-cover img{width:100%;height:100%;object-fit:cover;position:relative;z-index:1}
 @keyframes shimmerBook{0%{transform:translateX(-100%)}100%{transform:translateX(100%)}}
 .book-title{font-size:1.2rem;font-weight:850;margin-bottom:10px;color:#0f172a}
 .book-desc{font-size:.85rem;color:#64748b;margin-bottom:12px;line-height:1.5;flex-grow:1}
@@ -337,7 +339,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
     <p class="hero-subheading">Les secrets révolutionnaires de 47,000+ personnes qui ont transformé complètement leur vie en moins de 90 jours.</p>
     <p class="hero-subheading">Mindset, Argent, Charisme et Amour : 9 e-books premium pensés pour transformer chaque pilier de ta vie, de ta posture intérieure jusqu'à ta vie sentimentale.</p>
     
-    <div class="hero-visual">📚</div>
+    <div class="hero-visual"><img src="https://placehold.co/400x250/2563eb/ffffff?text=Banni%C3%A8re" alt="Bannière Mindset of Success"></div>
     
     <div class="social-proof">
       <div class="proof-item"><span class="stars">★★★★★</span> 4.98/5</div>
@@ -490,7 +492,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
     <div class="books-grid">
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
         <div class="book-label">⭐ BEST SELLER</div>
-        <div class="book-cover blue-cover">🦁</div>
+        <div class="book-cover blue-cover"><img src="https://placehold.co/400x600/2563eb/ffffff?text=Le+R%C3%A9veil+du+Lion" alt="Couverture Le Réveil du Lion"></div>
         <h3 class="book-title">Le Réveil du Lion</h3>
         <p class="book-desc">Découvre comment réveiller ton potentiel dormant et devenir une version extraordinaire de toi-même.</p>
         <p class="book-benefits">✓ 127 pages | 15 exercices | 3 audios</p>
@@ -500,7 +502,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
         <div class="book-label">🔥 POPULAIRE</div>
-        <div class="book-cover blue-cover">⚔️</div>
+        <div class="book-cover blue-cover"><img src="https://placehold.co/400x600/2563eb/ffffff?text=Discipline+d%27Acier" alt="Couverture Discipline d'Acier"></div>
         <h3 class="book-title">Discipline d'Acier</h3>
         <p class="book-desc">Les systèmes secrets des élites mondiales pour une discipline inébranlable.</p>
         <p class="book-benefits">✓ 156 pages | Calendrier 90j | PDF + ePub</p>
@@ -509,7 +511,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
       </div>
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover blue-cover">🎯</div>
+        <div class="book-cover blue-cover"><img src="https://placehold.co/400x600/2563eb/ffffff?text=Focus+Ultime" alt="Couverture Focus Ultime"></div>
         <h3 class="book-title">Focus Ultime</h3>
         <p class="book-desc">Élimine les distractions et atteins une concentration profonde pour 10x plus de productivité.</p>
         <p class="book-benefits">✓ 98 pages | 7 templates | Bonus vidéos</p>
@@ -528,7 +530,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
     <div class="books-grid">
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
         <div class="book-label">💎 PLUS VENDU</div>
-        <div class="book-cover green-cover">💰</div>
+        <div class="book-cover green-cover"><img src="https://placehold.co/400x600/16a34a/ffffff?text=L%27Empire+Digital" alt="Couverture L'Empire Digital"></div>
         <h3 class="book-title">L'Empire Digital</h3>
         <p class="book-desc">La roadmap COMPLÈTE pour lancer et monétiser ton business en ligne en 90 jours.</p>
         <p class="book-benefits">✓ 203 pages | 8 templates | Cas études</p>
@@ -537,7 +539,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
       </div>
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover green-cover">📈</div>
+        <div class="book-cover green-cover"><img src="https://placehold.co/400x600/16a34a/ffffff?text=Psychologie+de+l%27Argent" alt="Couverture Psychologie de l'Argent"></div>
         <h3 class="book-title">Psychologie de l'Argent</h3>
         <p class="book-desc">Reprogramme tes croyances limitantes et deviens magnétique à l'argent.</p>
         <p class="book-benefits">✓ 167 pages | Journal | Affirmations</p>
@@ -546,7 +548,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
       </div>
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover green-cover">🏆</div>
+        <div class="book-cover green-cover"><img src="https://placehold.co/400x600/16a34a/ffffff?text=Ind%C3%A9pendance+30%2F30" alt="Couverture Indépendance Financière 30/30"></div>
         <h3 class="book-title">Indépendance Financière 30/30</h3>
         <p class="book-desc">Atteins la liberté financière en 30 mois avec la stratégie des 30%.</p>
         <p class="book-benefits">✓ 145 pages | Calculateur | Stratégies</p>
@@ -564,7 +566,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
     <p class="section-subtitle reveal">Développe une influence irrésistible et attire les bonnes personnes.</p>
     <div class="books-grid">
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover pink-cover">❤️</div>
+        <div class="book-cover pink-cover"><img src="https://placehold.co/400x600/ec4899/ffffff?text=Lois+de+l%27Attraction" alt="Couverture Les Lois de l'Attraction"></div>
         <h3 class="book-title">Les Lois de l'Attraction</h3>
         <p class="book-desc">Les principes scientifiques pour attirer naturellement l'amour et les opportunités.</p>
         <p class="book-benefits">✓ 134 pages | 5 méditations | Guide</p>
@@ -573,7 +575,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
       </div>
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover pink-cover">🧠</div>
+        <div class="book-cover pink-cover"><img src="https://placehold.co/400x600/ec4899/ffffff?text=Psychologie+F%C3%A9minine" alt="Couverture Décoder la Psychologie Féminine"></div>
         <h3 class="book-title">Décoder la Psychologie Féminine</h3>
         <p class="book-desc">Comprendre authentiquement et créer des relations profondes et durables.</p>
         <p class="book-benefits">✓ 178 pages | Guides pratiques | Secrets</p>
@@ -582,7 +584,7 @@ footer::before{content:'';position:absolute;inset:0;background:radial-gradient(c
       </div>
 
       <div class="book-card reveal" onmousemove="updateMousePosition(event)">
-        <div class="book-cover pink-cover">✨</div>
+        <div class="book-cover pink-cover"><img src="https://placehold.co/400x600/ec4899/ffffff?text=Charisme+Magn%C3%A9tique" alt="Couverture Charisme Magnétique 2.0"></div>
         <h3 class="book-title">Charisme Magnétique 2.0</h3>
         <p class="book-desc">Les 7 piliers du vrai charisme pour influencer, séduire et inspirer.</p>
         <p class="book-benefits">✓ 112 pages | Vidéos + Pratiques</p>
